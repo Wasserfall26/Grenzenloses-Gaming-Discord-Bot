@@ -96,7 +96,7 @@ async def console_input(guild: discord.Guild):
                 print(f"Aktueller Channel: #{current_channel.name}")
             else:
                 print("Kein Channel gewählt!")
-
+            print("\n")
         # Zum nächsten Channel wechseln
         elif cmd == "/next":
             if current_channel:
@@ -122,7 +122,7 @@ async def console_input(guild: discord.Guild):
             print("\nChannels:")
             for i, ch in enumerate(channel_list, start=1):
                 print(f"{i}. #{ch.name}")
-
+            print("\n")
         # Bot beenden
         elif cmd == "/exit":
             print("Bot wird beendet...")
@@ -181,6 +181,7 @@ async def console_input(guild: discord.Guild):
                 print(f"{member.name} ({member.display_name})")
                 count += 1
 
+            print("\n")                      
 
         # Hilfe anzeigen
         elif cmd == "/help":
@@ -205,4 +206,4 @@ async def console_input(guild: discord.Guild):
 
 
 # <<< Hier deinen Bot-Token einsetzen >>>
-bot.run("MTQxNzkzODQ5ODM5NjM1Njc2MA.GxPxFV.v5uJzDp9t93nN5tNnXafXjwKNIdO6Gt-BlopXY")
+bot.run("DISCORD_BOT_TOKEN")
