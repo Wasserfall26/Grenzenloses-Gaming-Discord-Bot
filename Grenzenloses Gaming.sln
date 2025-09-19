@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Grenzenloses Gaming", "Grenzenloses Gaming\Grenzenloses Gaming.pyproj", "{2E20225A-A53D-4B0C-B78D-6EE3AD52846D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E20225A-A53D-4B0C-B78D-6EE3AD52846D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E20225A-A53D-4B0C-B78D-6EE3AD52846D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA011403-CB42-4141-82A7-EBC977722329}
+	EndGlobalSection
+EndGlobal
